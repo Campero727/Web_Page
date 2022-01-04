@@ -1,13 +1,3 @@
-/**
-* Template Name: DevFolio - v4.3.0
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
@@ -21,13 +11,26 @@ h5,
 h6 {
   color: #1e1e1e;
 }
+body {
+  background-color: #f5f5f5;
+  color: #4e4e4e;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1e1e1e;
+}
 a {
   color: #1e1e1e;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
 
+  
 a:hover {
   color: #0078ff;
   text-decoration: none;
@@ -51,7 +54,6 @@ a:hover {
   text-decoration: none;
   color: #4e4e4e;
 }
-
 .box-shadow, .paralax-mf, .service-box, .work-box, .card-blog {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
@@ -79,14 +81,11 @@ a:hover {
   margin-right: 4px;
   overflow: hidden;
 }
-
 .bg-image {
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-position: center center;
 }
-
 @media (max-width: 1024px) {
   .bg-image {
     background-attachment: scroll;
@@ -915,125 +914,6 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
-.work-box {
-  margin-bottom: 3rem;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  background-color: #fff;
-}
-
-.work-box:hover img {
-  transform: scale(1.3);
-}
-
-.work-img {
-  display: block;
-  overflow: hidden;
-}
-
-.work-img img {
-  transition: all 1s;
-}
-
-.work-content {
-  padding: 2rem 3% 1rem 4%;
-}
-
-.work-content .w-more {
-  color: #4e4e4e;
-  font-size: .8rem;
-}
-
-.work-content .w-more .w-ctegory {
-  color: #0078ff;
-}
-
-.work-content .w-like {
-  font-size: 2.5rem;
-  color: #0078ff;
-  float: right;
-}
-
-.work-content .w-like a {
-  color: #0078ff;
-}
-
-.work-content .w-like .num-like {
-  font-size: .7rem;
-}
-
-.w-title {
-  font-size: 1.2rem;
-}
-
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
-.portfolio-details {
-  padding-top: 40px;
-}
-
-.portfolio-details .portfolio-details-slider img {
-  width: 100%;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid #0078ff;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #0078ff;
-}
-
-.portfolio-details .portfolio-info {
-  padding: 30px;
-  box-shadow: 0px 0 30px rgba(78, 78, 78, 0.08);
-}
-
-.portfolio-details .portfolio-info h3 {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
-}
-
-.portfolio-details .portfolio-info ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-
-.portfolio-details .portfolio-info ul li + li {
-  margin-top: 10px;
-}
-
-.portfolio-details .portfolio-description {
-  padding-top: 30px;
-}
-
-.portfolio-details .portfolio-description h2 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.portfolio-details .portfolio-description p {
-  padding: 0;
-}
-
-/*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
 .testimonial-box {
@@ -1461,29 +1341,6 @@ footer .credits a {
   border-radius: 20px;
 }
 
-#portfolio-filtros li{
-  display:list-item;
-  display: inline;
-  padding: 0;
-  width:100%;
-  height: 100%;
-  justify-content: space-between;
-}
-.filtro{
-  height:80px;
-	width:10%;
-	margin: 10px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: italic;
-}
-.portafolio-filtros-container{
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.filtro:hover{
-  color: #0078ff;
-}
 /*--------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Portfolio
