@@ -5,65 +5,76 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+  <!--Details-->
   <title>Ofir Campero</title>
-  <meta content="Portafolio profesional de Programador" name="description">
-  <meta content="Ofir Campero, FullStack, Developer, Programador" name="keywords">
-  <meta name="google-site-verification" content="WItz6JNJ8gC9lOtSh7cd9uvInJtZg1qRb_cbqKHi_N8" />
-  
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="shortcut icon" href="assets/img/favicon.png">
+  <meta name="description" content="Pagian Web y Blog Personal">
+  <meta name="keywords" content="Ofir Campero, FullStack, Developer, Programador, Ciberseguridad, Hacking">
+  <meta name="google-site-verification" content="WItz6JNJ8gC9lOtSh7cd9uvInJtZg1qRb_cbqKHi_N8">
 
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!--End Details-->
 
-  <link href="assets/css/style.css" rel="stylesheet">
+  <!--Bootstrap Styles-->
+  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/vendor/glightbox/css/glightbox.min.css">
+  <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">   
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> 
 
+  <!--End Bootstrap Styles-->
+
+  <!--Custom Styles-->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
 
+
+<body>
+  
+  <!--Navbar-->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
-
       <h1 class="logo"><a href="index.html">Ofir Campero</a></h1>
-
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">Sobre Mi</a></li>
-          <li><a class="nav-link scrollto" href="#services">Habilidades</a></li>
+          <li><a class="nav-link scrollto" href="#skills">Habilidades</a></li>
           <li><a class="nav-link scrollto " href="#work">Trabajo</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
-
     </div>
   </header>
 
+  <!--End Navbar-->
+
+  <!--Home-->
   <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/Home.png)">
     <div class="overlay-itro"></div>
     <div class="hero-content display-table">
       <div class="table-cell">
-        <div class="container">
-
+        <div class="container wow slideInUp">
           <h1 class="hero-title mb-4">Ofir Neftali Angeles Campero</h1>
           <p class="hero-subtitle"><span class="typed" data-typed-items="Designer, Desktop Developer, Web Developer, Programmer, Cybersecurity"></span></p>
-          
         </div>
       </div>
     </div>
   </div>
+  <!--End Home-->
 
+  <!--Main Section-->
   <main id="main">
-
+    <!--About Section (Modificar)-->
     <section id="about" class="about-mf sect-pt4 route">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <div class="box-shadow-full">
-              <div class="row">
+              <div class="row wow slideInLeft">
                 <div class="col-md-6">
                   <div class="row row-1">
                     <div class="col-sm-6 col-md-5">
@@ -73,7 +84,6 @@
                       <p class="title-n"><span class="title-s">Telefono: </span> <span>(771) 370-3159</span></p>
                       <p class="title-n"><span class="title-s">GitHub:</span> <span><a href="https://github.com/Campero727">Campero727</a></span></p>
                     </div>
-                
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -101,19 +111,20 @@
     </section>
 
 
-    <section id="services" class="services-mf pt-5 route">
+    <!--Skills Section-->
+    <section id="skills" class="services-mf pt-5 route">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <div class="title-box text-center">
-              <h3 class="title-a">
+              <h3 class="title-a wow slideInUp">
                 Habilidades
               </h3>
               <div class="line-mf"></div>
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row wow slideInRight">
           
           <div class="col-md-4">
             <div class="service-box">
@@ -307,9 +318,10 @@
         </div>
       </div>
     </section>
+    <!--End Skill Section-->
 
-    
-    <section id="work" class="portfolio-mf sect-pt4 route">
+    <!--Portafolio-->
+    <section id="work" class="portfolio-mf sect-pt4 route wow slideInDown">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -329,7 +341,7 @@
           </div>
     </section>
 
-  <section id="portfolio" class="portfolio">
+  <section id="portfolio" class="portfolio wow slideInUp">
     <div class="container">
       <div class="row" data-aos="fade-up">
         <div class="col-lg-12 d-flex justify-content-center">
@@ -433,15 +445,16 @@
     </div>
   </section>
 
+  <!--End Portfolio-->
 
-  <footer>
+  <!--Footer-->
+  <footer class="wow rollIn">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
           <div class="copyright-box">
             <p class="copyright">&copy; Copyright <strong>Ofir Campero</strong>. All Rights Reserved</p>
             <div class="credits">
-             
               Designed by Ofir Campero
             </div>
           </div>
@@ -453,6 +466,7 @@
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+  <script src="assets/js/wow.min.js"></script>
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -466,9 +480,15 @@
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
 
-
   <script src="assets/js/main.js"></script>
 
 </body>
+
+  <!--Scripts-->
+
+  <!--Init Wow-->
+  <script>
+    new WOW().init();
+  </script>
 
 </html>
