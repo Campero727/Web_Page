@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
   <link rel="stylesheet" href="assets/vendor/glightbox/css/glightbox.min.css">
   <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">--> 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> 
@@ -41,9 +41,8 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">Sobre Mi</a></li>
           <li><a class="nav-link scrollto" href="#skills">Habilidades</a></li>
-          <li><a class="nav-link scrollto " href="#work">Trabajo</a></li>
+          <li><a class="nav-link scrollto " href="#work">Portafolio</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -57,59 +56,30 @@
     <div class="overlay-itro"></div>
     <div class="hero-content display-table">
       <div class="table-cell">
+        <div class="icons wow slideInUp">
+          <i class="fab fa-windows icon"><a href="https://www.facebook.com/ofir.anjelesc"></a></i>
+          <i class="fab fa-linux icon"></i>
+          <i class="fab fa-android icon"></i>
+          <i class="fab fa-apple icon"></i>
+        </div>
+        <br>
         <div class="container wow slideInUp">
           <h1 class="hero-title mb-4">Ofir Neftali Angeles Campero</h1>
-          <p class="hero-subtitle"><span class="typed" data-typed-items="Designer, Desktop Developer, Web Developer, Programmer, Cybersecurity"></span></p>
+          <p class="hero-subtitle descripciones"><span class="typed" data-typed-items="Python, Web Developer, Hacking Etico, Pentesting"></span></p>
         </div>
+        <br>
+        <div class="social-networks wow slideInUp">
+          <!--<a onclick="window.location.href='https://www.facebook.com/ofir.anjelesc'" class="fab fa-facebook-f social-ico"></a>-->
+          <a onclick="window.location.href='https://www.facebook.com/ofir.anjelesc'" class="fab fa-facebook-f social-ico"></a>
+          <a onclick="window.location.href=''" class="fab fa-twitter social-ico"></a>
+          <a onclick="window.location.href='https://wa.me/527713703159?text=Hola,%20Me%20interesa%20comunicarme%20contigo'" class="fab fa-whatsapp social-ico"></a>
+          <a onclick="window.location.href='https://github.com/Campero727'" class="fab fa-github social-ico"></a>
+          <a onclick="window.location.href=''" class="fab fa-linkedin-in social-ico"></a>
+      </div>
       </div>
     </div>
   </div>
   <!--End Home-->
-
-  <!--Main Section-->
-  <main id="main">
-    <!--About Section (Modificar)-->
-    <section id="about" class="about-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="box-shadow-full">
-              <div class="row wow slideInLeft">
-                <div class="col-md-6">
-                  <div class="row row-1">
-                    <div class="col-sm-6 col-md-5">
-                      <p class="title-n"><span class="title-s">Nombre: </span> <span>Ofir Neftali Angeles Campero</span></p>
-                      <p class="title-n"><span class="title-s">Perfil Profesional: </span> <span>Programador</span></p>
-                      <p class="title-n"><span class="title-s">Correo: </span> <span> <a href="mailto:ofircampero@gmail.com">ofircampero@gmail.com </a></span> o <span> <a href="mailto:campero1008@gmail.com">Campero1008@gmail.com</a></span></p>
-                      <p class="title-n"><span class="title-s">Telefono: </span> <span>(771) 370-3159</span></p>
-                      <p class="title-n"><span class="title-s">GitHub:</span> <span><a href="https://github.com/Campero727">Campero727</a></span></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="about-me pt-4 pt-md-0">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        Sobre Mi
-                      </h5>
-                    </div>
-                    <p class="lead">
-                      Actualmente soy estudiante de la Licenciatura En Ciencias Computacionales, apasionado con el desarrollo de software
-                      y la ciberseguridad. 
-                      Cuento con múltiples certificaciones en varias áreas de la informática, he desarrollado múltiples 
-                      aplicaciones web con experiencia FreeLance en áreas tanto de Backend como de Frontend, tengo experiencia 
-                      con Frameworks y lenguajes de programación como Python, Java, Cobol, Php y Javascript, ademas de implementar
-                      la metodologia de desarrollo Agil Scrum
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
 
     <!--Skills Section-->
     <section id="skills" class="services-mf pt-5 route">
@@ -129,7 +99,7 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i><img src="assets/img/Skills/www1.png" width="80%" height="80%"></i></span>
+                <span class="ico-circle"><i class="fab fa-html5 skill"></i></span>
               </div>
               <div class="service-content">
                 <h2 class="s-title">Desarrollo Web</h2>
@@ -143,7 +113,7 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i><img src="assets/img/Skills/Scrum.png" height="80%" width="80%"></i></span>
+                <span class="ico-circle"><i class="fas fa-chart-line skill"></i></span>
               </div>
               <div class="service-content">
                 <h2 class="s-title">Scrum</h2>
@@ -157,7 +127,7 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i><img src="assets/img/Skills/bash.png" width="80%" height="80%"></i></span>
+                <span class="ico-circle"><i class="fab fa-windows skill"></i></span>
               </div>
               <div class="service-content">
                 <h2 class="s-title">Scripting</h2>
@@ -169,9 +139,9 @@
           </div>
           
           <div class="col-md-4">
-            <div class="service-box">
+            <div class="service-box division">
               <div class="service-ico">
-                <span class="ico-circle"><i><img src="assets/img/Skills/Firewalls.png" width="80%" height="80%"></i></span>
+                <span class="ico-circle"><i class="fas fa-shield-alt skill"></i></span>
               </div>
               <div class="service-content">
                 <h2 class="s-title">Firewalls</h2>
@@ -185,12 +155,12 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i><img src="assets/img/Skills/mainframe.png" width="80%" heigth="80%"></i></span>
+                <span class="ico-circle"><i class="fas fa-server skill"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Mainframes</h2>
+                <h2 class="s-title">Servidores</h2>
                 <p class="s-description text-center">
-                  <p>Programacion en Cobol</p>
+                  <p>Configuracion, Administracion y Securizacion de Entornos Linux Server y Windows Server</p>
                 </p>
               </div>
             </div>
@@ -199,7 +169,7 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i><img src="assets/img/services/uiux.png" width="80%" height="80%"></i></span>
+                <span class="ico-circle"><i class="fas fa-mobile-alt skill"></i></span>
               </div>
               <div class="service-content">
                 <h2 class="s-title">Diseño UI/UX</h2>
@@ -213,7 +183,7 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i><img src="assets/img/Skills/wordpress.png" width="80%" height="80%"></i></span>
+                <span class="ico-circle"><i class="fab fa-wordpress skill"></i></span>
               </div>
               <div class="service-content">
                 <h2 class="s-title">WordPress</h2>
@@ -228,7 +198,7 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i><img src="assets/img/Skills/iot.png" width="80%" height="80%"></i></span>
+                <span class="ico-circle"><i class="fas fa-wifi skill"></i></span>
               </div>
               <div class="service-content">
                 <h2 class="s-title">IOT</h2>
@@ -243,7 +213,7 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i><img src="assets/img/Skills/programacion.png" width="80%" height="80%"></i></span>
+                <span class="ico-circle"><i class="fas fa-file-code skill"></i></span>
               </div>
               <div class="service-content">
                 <h2 class="s-title">Programacion</h2>
@@ -257,7 +227,7 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i><img src="assets/img/Skills/tics.png" width="80%" height="80%"></i></span>
+                <span class="ico-circle"><i class="fab fa-google skill"></i></span>
               </div>
               <div class="service-content">
                 <h2 class="s-title">Soporte De Tecnologias de la Informacion</h2>
@@ -276,40 +246,12 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i><img src="assets/img/Skills/linux.png" width="80%" height="80%"></i></span>
+                <span class="ico-circle"><i class="fab fa-linux skill"></i></span>
               </div>
               <div class="service-content">
                 <h2 class="s-title">Linux</h2>
                 <p class="s-description text-center">
                   <p>Administracion de Sistemas Operativos como: Debian, Ubuntu, CentOS, RedHat, Fedora</p>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i><img src="assets/img/Skills/python.png" width="80%" height="80%"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Python</h2>
-                <p class="s-description text-center">
-                  <p>Creacion de herramientas para Web Scrapping y software de uso general</p>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><i><img src="assets/img/Skills/batch.png" width="80%" height="80%"></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Batch Script</h2>
-                <p class="s-description text-center">
-                  <p>Automatizacion de Procesos con Batch Script</p>
                 </p>
               </div>
             </div>
@@ -347,12 +289,27 @@
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
             <!--<li data-filter="*" class="filter-active">Todo</li>-->
-            <li data-filter=".filter-webdevelop">Desarrollo Web</li>
-            <li data-filter=".filter-uiux">Diseño UI/UX</li>
-            <li data-filter=".filter-frontend">FrontEnd</li>
-            <li data-filter=".filter-wordpress">Wordpress</li>
-            <li data-filter=".filter-python">Python</li>
-            <li data-filter=".filter-batch">Batch</li>
+            <li data-filter=".filter-webdevelop">FullStack 
+              <i class="fab fa-html5"></i>
+              <i class="fab fa-php"></i>
+            </li>
+            <li data-filter=".filter-uiux">Diseño UI/UX
+              <i class="fas fa-mobile-alt"></i>
+            </li>
+            <li data-filter=".filter-frontend">FrontEnd
+              <i class="fab fa-html5"></i>
+              <i class="fab fa-css3-alt"></i>
+              <i class="fab fa-js-square"></i>
+            </li>
+            <li data-filter=".filter-wordpress">Wordpress
+              <i class="fab fa-wordpress"></i>
+            </li>
+            <li data-filter=".filter-python">Python
+              <i class="fab fa-python"></i>
+            </li>
+            <li data-filter=".filter-batch">Batch
+              <i class="fas fa-file-code"></i>
+            </li>
           </ul>
         </div>
       </div>
@@ -363,80 +320,90 @@
         <div class="col-lg-4 col-md-6 portfolio-item filter-webdevelop">
           <img src="assets/img/Portafolio/Desarrollo Web/Login.png" class="img-fluid" alt="">
           <div class="portfolio-info">
-            <h4>Login Con Redes Sociales</h4>
+            <h4>Login Con Redes Sociales <i class="fab fa-google"></i></h4>
             <p><span class="w-ctegory">Desarrollo Web</span> / <span>Php, Mysql Y Firebase</span></p>
             <a href="" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-            <a href="" class="details-link" title="More Details"><i class="bx bx-link">+</i></a>
+            <a href="details/FullStack/login_with_social.html" class="details-link" title="More Details"><i class="bx bx-link">+</i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-webdevelop">
           <img src="assets/img/Portafolio/Desarrollo Web/Twitter.png" class="img-fluid" alt="">
           <div class="portfolio-info">
-            <h4>Clon Twitter</h4>
+            <h4>Clon Twitter <i class="fab fa-twitter"></i></h4>
             <p><span class="w-ctegory">Desarrollo Web</span> / <span>Php, Mysql, Javascript</span></p>
             <a href="" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-            <a href="" class="details-link" title="More Details"><i class="bx bx-link">+</i></a>
+            <a href="details/FullStack/Twitter.html" class="details-link" title="More Details"><i class="bx bx-link">+</i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-uiux">
           <img src="assets/img/Portafolio/UIUX/pagweb1.png" class="img-fluid" alt="">
           <div class="portfolio-info">
-            <h4>Diseño UI/UX Pagina Web</h4>
+            <h4>Diseño UI/UX Pagina Web <i class="fas fa-mobile-alt"></i></h4>
             <p><span class="w-ctegory">Diseño UI UX</span> / <span>Adobe XD</span></p>
             <a href="" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-            <a href="" class="details-link" title="More Details"><i class="bx bx-link">+</i></a>
+            <a href="details/UIUX/paginaweb1.html" class="details-link" title="More Details"><i class="bx bx-link">+</i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-frontend">
           <img src="assets/img/Portafolio/FrontEnd/gofood.png" class="img-fluid" alt="">
           <div class="portfolio-info">
-            <h4>FrontEnd Pagina web GoFood</h4>
+            <h4>FrontEnd Pagina web GoFood <i class="fab fa-html5"></i></h4>
             <p><span class="w-ctegory">FrontEnd</span> / <span>Html5 Css3 Javascript</span></p>
             <a href="" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-            <a href="" class="details-link" title="More Details"><i class="bx bx-link">+</i></a>
+            <a href="details/FrontEnd/GoFood.html" class="details-link" title="More Details"><i class="bx bx-link">+</i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-frontend">
           <img src="assets/img/Portafolio/FrontEnd/portafolio.png" class="img-fluid" alt="">
           <div class="portfolio-info">
-            <h4>FrontEnd Portafolio Web</h4>
+            <h4>FrontEnd Portafolio Web <i class="fab fa-html5"></i></h4>
             <p><span class="w-ctegory">FrontEnd</span> / <span>Html5 Css3 Javascript</span></p>
             <a href="" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-            <a href="" class="details-link" title="More Details"><i class="bx bx-link">+</i></a>
+            <a href="details/FrontEnd/PortafolioWeb.html" class="details-link" title="More Details"><i class="bx bx-link">+</i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-wordpress">
           <img src="assets/img/Portafolio/WordPress/Ecommerce1.png" class="img-fluid" alt="">
           <div class="portfolio-info">
-            <h4>ECommerce</h4>
+            <h4>ECommerce <i class="fab fa-wordpress"></i></h4>
             <p><span class="w-ctegory">Wordpress</span> / <span>ECommerce</span></p>
             <a href="" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-            <a href="" class="details-link" title="More Details"><i class="bx bx-link">+</i></a>
+            <a href="details/Wordpress/PlanetGame.html" class="details-link" title="More Details"><i class="bx bx-link">+</i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-python">
           <img src="assets/img/Portafolio/python/web_scrapper.jpg" class="img-fluid" alt="">
           <div class="portfolio-info">
-            <h4>Herramienta para Web Scraper y clonacion de paginas web</h4>
+            <h4>Herramienta para Web Scraper y clonacion de paginas web <i class="fas fa-file-code"></i></h4>
             <p><span class="w-ctegory">Python</span> / <span>Herrmientas</span></p>
             <a href="" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-            <a href="" class="details-link" title="More Details"><i class="bx bx-link">+</i></a>
+            <a href="details/python/WebScrapperClonacion.html" class="details-link" title="More Details"><i class="bx bx-link">+</i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-batch">
           <img src="assets/img/Portafolio/Batch/Automat.jpg" class="img-fluid" alt="">
           <div class="portfolio-info">
-            <h4>Automatizacion de Procesos Con Batch</h4>
+            <h4>Automatizacion de Procesos Con Batch <i class="fab fa-windows"></i></h4>
             <p><span class="w-ctegory">Batch</span> / <span>Automatizacion</span></p>
             <a href="" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-            <a href="" class="details-link" title="More Details"><i class="bx bx-link">+</i></a>
+            <a href="details/Batch/Automat.html" class="details-link" title="More Details"><i class="bx bx-link">+</i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-frontend">
+          <img src="assets/img/Portafolio/FrontEnd/Nike.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>FrontEnd Pagina Web Para venta de Tenis <i class="fab fa-html5"></i></h4>
+            <p><span class="w-ctegory">FrontEnd</span> / <span>HTML5, CSS3, JavaScript</span></p>
+            <a href="" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+            <a href="details/FrontEnd/Nike.html" class="details-link" title="More Details"><i class="bx bx-link">+</i></a>
           </div>
         </div>
 
@@ -479,7 +446,7 @@
   <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-
+  <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <script src="assets/js/main.js"></script>
 
 </body>

@@ -1368,7 +1368,7 @@ footer .credits a {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #e82d2d;
+  color: deepskyblue;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1445,4 +1445,65 @@ footer .credits a {
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 20px;
+}
+/*ICons*/
+.icons{
+  color: white !important;
+  font-size: 2.5rem !important;
+}
+.icon:hover{
+  color: #0078ff !important;
+}
+/*Redes sociales*/
+.social-networks .social-ico{
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 25px;
+  margin-right: 2px;
+  transition: all 0.5s ease-in;
+}
+.social-networks .social-ico:hover{
+  text-decoration: none;
+  background-color: deepskyblue;
+  color: white;
+  border:1px solid deepskyblue;
+}
+/*Descripciones*/
+.descripciones:hover{
+  color: #0078ff;
+  transition: all 0.5s ease-in;
+}
+/*Skills*/
+.skill{
+  font-size: 4rem !important;
+}
+.service-box:hover .ico-circle{
+  transform: rotate(360deg);
+}
+.service-box:hover{
+  color: #0078ff;
+  transition: all 0.5s ease-in;
+}
+.service-box:hover .s-title{
+  color: #0078ff;
+  transition: all 0.5s ease-in;
+}
+/*Carousel*/
+#prev-btn{
+  background-color: deepskyblue;
+}
+#next-btn{
+  background-color: deepskyblue;
+}
+#next-btn:hover{
+  background-color: transparent;
+}
+#prev-btn:hover{
+  background-color: transparent;
+}
+.details-img{
+  color: black;
 }
